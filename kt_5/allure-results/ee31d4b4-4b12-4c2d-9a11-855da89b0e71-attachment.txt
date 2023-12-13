@@ -1,0 +1,8 @@
+'===================================================================================================='
+'GET example'
+'https://petstore.swagger.io/v2/user/Jason'
+404
+'Not Found'
+'{"code":1,"type":"error","message":"User not found"}'
+{'code': 1, 'message': 'User not found', 'type': 'error'}
+'**********'

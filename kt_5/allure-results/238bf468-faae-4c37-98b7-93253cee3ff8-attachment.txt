@@ -1,0 +1,26 @@
+'===================================================================================================='
+'POST example'
+'https://petstore.swagger.io/v2/store/order'
+200
+'OK'
+'{"id":30,"petId":4,"quantity":1,"shipDate":"2023-11-22T14:27:40.000+0000","status":"placed","complete":false}'
+{'complete': False,
+ 'id': 30,
+ 'petId': 4,
+ 'quantity': 1,
+ 'shipDate': '2023-11-22T14:27:40.000+0000',
+ 'status': 'placed'}
+'**********'
+'===================================================================================================='
+'GET example'
+'https://petstore.swagger.io/v2/store/order/30'
+200
+'OK'
+'{"id":30,"petId":4,"quantity":1,"shipDate":"2023-11-22T14:27:40.000+0000","status":"placed","complete":false}'
+{'complete': False,
+ 'id': 30,
+ 'petId': 4,
+ 'quantity': 1,
+ 'shipDate': '2023-11-22T14:27:40.000+0000',
+ 'status': 'placed'}
+'**********'

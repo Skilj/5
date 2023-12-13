@@ -1,0 +1,8 @@
+'===================================================================================================='
+'GET example'
+'https://petstore.swagger.io/v2/store/order/11'
+404
+'Not Found'
+'{"code":1,"type":"error","message":"Order not found"}'
+{'code': 1, 'message': 'Order not found', 'type': 'error'}
+'**********'
